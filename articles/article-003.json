@@ -3,10 +3,14 @@
   "title": "El efecto Mateo",
   "source": "El País",
   "date": "2026",
+  "intro": {
+    "es": "El «efecto Mateo» describe cómo los que más tienen siguen acumulando ventajas, mientras los que menos tienen lo pierden todo. Este artículo analiza cómo este principio bíblico se ha convertido en la lógica dominante del sistema educativo español, agravando la desigualdad entre familias inmigrantes y élites privilegiadas.",
+    "zh": "「马太效应」描述的是强者愈强、弱者愈弱的社会规律。本文分析了这一源自《圣经》的原则如何成为西班牙教育体系的主导逻辑，加剧了移民家庭与特权精英之间的不平等。"
+  },
   "paragraphs": [
     {
-      "es": "\"Porque a cualquiera que tiene, se le dará, y tendrá más; pero al que no tiene, aun lo que tiene le será quitado\", dice la cita del Evangelio según san Mateo que la sociología tomó, a finales de los años sesenta, para acuñar un efecto que se ha producido siempre en ámbitos como la economía o la cultura pero que, en los últimos tiempos, parece haberse generalizado como modo operativo sin disimulo. No solo se trata de la manera de actuar de Trump en la esfera internacional o cuando favorece a los gigantes tecnológicos. En España, por ejemplo, la educación se ha convertido en uno de los campos más fértiles para esa mezcla de desigualdad y enriquecimiento privado. Así, mientras Ignacio Zafra informaba de cómo el abandono escolar de los alumnos extranjeros triplica al de los autóctonos, su compañera Elisa Silió advertía que los municipios más ricos de Madrid acaparan las \"becas de excelencia\" que se dan en esa comunidad y que han empezado a exportarse a otras regiones.",
-      "zh": "《马太福音》中有言：\u201c凡有的，还要加给他，叫他有余；凡没有的，连他所有的，也要夺去。\u201d上世纪六十年代末，社会学借用这句话创造了一个效应——这种效应在经济、文化等领域始终存在，但近年来似乎已毫不掩饰地成为一种普遍运作模式。这不仅体现在特朗普在国际舞台上的行事方式，或他对科技巨头的偏袒。以西班牙为例，教育已成为这种不平等与私人财富积累相混合的最肥沃土壤之一。伊格纳西奥·萨弗拉报道称，外国学生的辍学率是本地学生的三倍；而其同事埃莉萨·西利奥则指出，马德里最富裕的市镇垄断了该地区颁发的\u201c卓越奖学金\u201d，这一做法已开始向其他地区蔓延。",
+      "es": "\"Porque a cualquiera que tiene, se le dará, y tendrá más; pero al que no tiene, aun lo que tiene le será quitado\", dice la cita del Evangelio según san Mateo que la sociología tomó, a finales de los años sesenta, para acuñar un efecto que se ha producido siempre en ámbitos como la economía o la cultura.",
+      "zh": "《马太福音》中有言：「凡有的，还要加给他，叫他有余；凡没有的，连他所有的，也要夺去。」上世纪六十年代末，社会学借用这句话创造了一个效应——这种效应在经济、文化等领域始终存在。",
       "words": {
         "acuñar": {
           "def": "创造（新词或概念）；铸造（硬币）（动词）",
@@ -15,7 +19,13 @@
         "ámbitos": {
           "def": "领域；范围；环境（名词复数）",
           "usage": "'en ámbitos como la economía' 意为「在经济等领域」，正式书面语常用词"
-        },
+        }
+      }
+    },
+    {
+      "es": "En los últimos tiempos, ese efecto parece haberse generalizado como modo operativo sin disimulo. No solo se trata de la manera de actuar de Trump en la esfera internacional o cuando favorece a los gigantes tecnológicos.",
+      "zh": "但近年来，这一效应似乎已毫不掩饰地成为一种普遍运作模式。这不仅体现在特朗普在国际舞台上的行事方式，或他对科技巨头的偏袒。",
+      "words": {
         "generalizado": {
           "def": "普遍化的；广泛化的（形容词/过去分词）",
           "usage": "'haberse generalizado' 意为「已变得普遍」，表示某现象扩散至各处"
@@ -31,7 +41,13 @@
         "esfera": {
           "def": "领域；圈子；范围（名词）",
           "usage": "'esfera internacional' 意为「国际领域/舞台」，正式用语"
-        },
+        }
+      }
+    },
+    {
+      "es": "En España, la educación se ha convertido en uno de los campos más fértiles para esa mezcla de desigualdad y enriquecimiento privado. Así, el abandono escolar de los alumnos extranjeros triplica al de los autóctonos.",
+      "zh": "以西班牙为例，教育已成为这种不平等与私人财富积累相混合的最肥沃土壤之一。外国学生的辍学率是本地学生的三倍。",
+      "words": {
         "fértiles": {
           "def": "肥沃的；富有成效的（形容词复数）",
           "usage": "此处为比喻用法，'campos más fértiles' 意为「最肥沃的土壤」，指最适合滋生某现象的领域"
@@ -47,7 +63,13 @@
         "autóctonos": {
           "def": "本地的；土著的；原住民（形容词/名词）",
           "usage": "此处指本国出生的学生，与 'extranjeros'（外国学生）形成对比"
-        },
+        }
+      }
+    },
+    {
+      "es": "Además, los municipios más ricos de Madrid acaparan las \"becas de excelencia\" que se dan en esa comunidad y que han empezado a exportarse a otras regiones.",
+      "zh": "此外，马德里最富裕的市镇垄断了该地区颁发的「卓越奖学金」，这一做法已开始向其他地区蔓延。",
+      "words": {
         "acaparan": {
           "def": "垄断；独占；囤积（动词三人称复数）",
           "usage": "带有负面含义，暗示富裕市镇不公平地占据了大量奖学金资源"
@@ -59,8 +81,8 @@
       }
     },
     {
-      "es": "No tener estudios postobligatorios se ha convertido en una nueva forma de exclusión, pero esa posibilidad pasa cada vez más por la capacidad económica. Buena parte de las familias inmigrantes no solo se enfrentan a la barrera lingüística, al laberinto burocrático a la hora de pedir becas para sus hijos, a la falta de refuerzos individualizados y aulas de acogida en la enseñanza pública. Además, suelen no tener el poder adquisitivo suficiente para pagar clases particulares o los ciclos de Formación Profesional privados que están proliferando. En lugar de ayuda u orientación, lo que reciben muchas veces de la escuela es la repetición de curso como única alternativa, el indicador que mejor avisa del futuro fracaso. Por su parte, la estrechez propicia que estos alumnos, cumplidos los 16 años, salgan del sistema educativo para ponerse a trabajar en los mismos empleos precarios por los que los jóvenes españoles dejaban los estudios antes de 2008. Ellos son el nuevo proletariado, y su regularización debería ir acompañada de un modelo integrador que les permita realizar el sueño de prosperidad que trajo aquí a sus padres.",
-      "zh": "没有接受过义务教育以上阶段学习的人，正面临一种新形式的社会排斥，而这种可能性越来越取决于经济能力。大量移民家庭不仅面临语言障碍、申请子女奖学金时的繁琐官僚程序，还面临公立学校缺乏个性化辅导和接待班的困境。此外，他们通常没有足够的购买力来支付私人补习或正在大量涌现的私立职业培训课程。学校给这些学生的往往不是帮助或指导，而是将留级作为唯一选择——这恰恰是预示未来失败的最佳指标。经济拮据使得这些学生在年满16岁后便离开教育体系，去从事与2008年前西班牙年轻人因此辍学的同类低薪不稳定工作。他们是新的无产阶级，对他们的身份正规化应当伴随一套融合模式，使他们能够实现当初带着父母来到这里的那个繁荣梦想。",
+      "es": "No tener estudios postobligatorios se ha convertido en una nueva forma de exclusión, pero esa posibilidad pasa cada vez más por la capacidad económica. Buena parte de las familias inmigrantes no solo se enfrentan a la barrera lingüística y al laberinto burocrático a la hora de pedir becas.",
+      "zh": "没有接受过义务教育以上阶段学习的人，正面临一种新形式的社会排斥，而这种可能性越来越取决于经济能力。大量移民家庭不仅面临语言障碍，还面临申请子女奖学金时的繁琐官僚程序。",
       "words": {
         "estudios postobligatorios": {
           "def": "义务教育后阶段的学习（名词短语）",
@@ -73,7 +95,13 @@
         "laberinto burocrático": {
           "def": "官僚迷宫；繁琐的行政程序（名词短语）",
           "usage": "比喻行政手续复杂难以应对，带有强烈批判色彩"
-        },
+        }
+      }
+    },
+    {
+      "es": "También se enfrentan a la falta de refuerzos individualizados y aulas de acogida en la enseñanza pública. Además, suelen no tener el poder adquisitivo suficiente para pagar clases particulares o los ciclos de Formación Profesional privados que están proliferando.",
+      "zh": "他们还面临公立学校缺乏个性化辅导和接待班的困境。此外，他们通常没有足够的购买力来支付私人补习或正在大量涌现的私立职业培训课程。",
+      "words": {
         "refuerzos individualizados": {
           "def": "个性化辅导；个别强化支持（名词短语）",
           "usage": "教育术语，指针对特定学生需求提供的额外学习支持"
@@ -89,7 +117,13 @@
         "proliferando": {
           "def": "大量涌现；迅速增殖（现在分词）",
           "usage": "表示私立职业培训机构数量快速增长，带有一定负面含义"
-        },
+        }
+      }
+    },
+    {
+      "es": "Lo que reciben muchas veces de la escuela es la repetición de curso como única alternativa, el indicador que mejor avisa del futuro fracaso. La estrechez propicia que estos alumnos, cumplidos los 16 años, salgan del sistema educativo para ponerse a trabajar.",
+      "zh": "学校给这些学生的往往不是帮助或指导，而是将留级作为唯一选择——这恰恰是预示未来失败的最佳指标。经济拮据使得这些学生在年满16岁后便离开教育体系，去参加工作。",
+      "words": {
         "repetición de curso": {
           "def": "留级（名词短语）",
           "usage": "西班牙教育政策争议焦点，研究表明留级往往预示未来辍学风险"
@@ -101,7 +135,13 @@
         "propicia": {
           "def": "促使；有利于；导致（动词三单）",
           "usage": "正式书面语，表示某条件「造成/促成」某结果"
-        },
+        }
+      }
+    },
+    {
+      "es": "Lo hacen en los mismos empleos precarios por los que los jóvenes españoles dejaban los estudios antes de 2008. Ellos son el nuevo proletariado, y su regularización debería ir acompañada de un modelo integrador que les permita realizar el sueño de prosperidad que trajo aquí a sus padres.",
+      "zh": "他们从事的，正是2008年前西班牙年轻人因此辍学的同类低薪不稳定工作。他们是新的无产阶级，对他们的身份正规化应当伴随一套融合模式，使他们能够实现当初带着父母来到这里的那个繁荣梦想。",
+      "words": {
         "empleos precarios": {
           "def": "不稳定工作；低薪临时工作（名词短语）",
           "usage": "劳工政策术语，指缺乏保障、薪资低、合同不稳定的工作"
@@ -121,8 +161,8 @@
       }
     },
     {
-      "es": "Pero el paradigma meritocrático basado en becas y una enseñanza pública de calidad hace ya años que se rompió para todos. La educación privada es un negocio que, en España, mueve 20.000 millones de euros al año. A la entrada de fondos de inversión en las entidades que ofertan carreras universitarias, másteres o ciclos de Formación Profesional con vínculos empresariales para realizar prácticas, no solo se le añade el aliento que ciertas administraciones autonómicas les dan sin desmayo, sino el boca a boca no siempre fundado de las familias. Por una parte, nos encontramos con una financiación de universidades públicas a todas luces insuficiente; con campañas de descrédito; con desgravaciones de las clases particulares; con cesiones de terrenos para la construcción de más centros concertados; con cierres de líneas escolares y recortes de personal mientras las ratios siguen siendo elevadas; con sinergias entre lo público y lo privado, ya sea celebrando actos propios de la primera esfera en espacios de la segunda, o contratando y cediendo datos de menores a empresas como Google. El modelo es el estadounidense. Si usted quiere una educación o sanidad de calidad, pague, aunque quien garantice plenamente esa calidad, en este país, sigan siendo la universidad y la sanidad públicas.",
-      "zh": "然而，以奖学金和优质公共教育为基础的精英择优范式，多年前便已对所有人宣告破裂。私立教育在西班牙是一门每年流转200亿欧元的生意。投资基金涌入提供大学课程、硕士或有企业实习联系的职业培训机构，不仅得到某些自治区政府毫不懈怠的扶持，还受益于家长们未必有据可查的口耳相传。一方面，我们看到公立大学经费明显不足、遭受抹黑宣传、私人补习费用可抵税、土地被划拨用于建设更多协议学校、班级被关闭、人员被裁减而班级规模依然居高不下，以及公私之间的协同效应——无论是在私立空间举办本属公共领域的活动，还是将未成年人数据转让给谷歌等企业。这一模式正是美国模式：如果您想要优质教育或医疗，请自费——尽管在这个国家，真正能全面保障这种质量的，依然是公立大学和公共医疗。",
+      "es": "Pero el paradigma meritocrático basado en becas y una enseñanza pública de calidad hace ya años que se rompió para todos. La educación privada es un negocio que, en España, mueve 20.000 millones de euros al año.",
+      "zh": "然而，以奖学金和优质公共教育为基础的精英择优范式，多年前便已对所有人宣告破裂。私立教育在西班牙是一门每年流转200亿欧元的生意。",
       "words": {
         "paradigma meritocrático": {
           "def": "精英择优范式；任人唯贤模式（名词短语）",
@@ -131,7 +171,13 @@
         "fondos de inversión": {
           "def": "投资基金（名词短语）",
           "usage": "金融术语，此处指进入私立教育市场的资本，暗示教育商业化"
-        },
+        }
+      }
+    },
+    {
+      "es": "A la entrada de fondos de inversión en las entidades que ofertan carreras universitarias, másteres o ciclos de Formación Profesional con vínculos empresariales, no solo se le añade el aliento que ciertas administraciones autonómicas les dan sin desmayo, sino el boca a boca no siempre fundado de las familias.",
+      "zh": "投资基金涌入提供大学课程、硕士或有企业实习联系的职业培训机构，不仅得到某些自治区政府毫不懈怠的扶持，还受益于家长们未必有据可查的口耳相传。",
+      "words": {
         "vínculos empresariales": {
           "def": "企业联系；商业纽带（名词短语）",
           "usage": "指私立教育机构与企业之间的合作关系，通常以实习项目为卖点"
@@ -147,7 +193,13 @@
         "boca a boca": {
           "def": "口耳相传；口碑传播（名词短语）",
           "usage": "指家长之间非正式的信息传递，作者指出这种传播'no siempre fundado'（未必有据）"
-        },
+        }
+      }
+    },
+    {
+      "es": "Por una parte, nos encontramos con una financiación de universidades públicas a todas luces insuficiente; con campañas de descrédito; con desgravaciones de las clases particulares; con cesiones de terrenos para la construcción de más centros concertados.",
+      "zh": "一方面，我们看到公立大学经费明显不足、遭受抹黑宣传、私人补习费用可抵税、土地被划拨用于建设更多协议学校。",
+      "words": {
         "a todas luces": {
           "def": "显然；明显地；无论从哪个角度看（副词短语）",
           "usage": "强调公立大学经费不足是不争的事实，语气强烈"
@@ -167,7 +219,13 @@
         "centros concertados": {
           "def": "协议学校（名词短语）",
           "usage": "西班牙特有制度，指接受政府补贴但由私人（通常为宗教机构）管理的学校"
-        },
+        }
+      }
+    },
+    {
+      "es": "También vemos cierres de líneas escolares y recortes de personal mientras las ratios siguen siendo elevadas; con sinergias entre lo público y lo privado, ya sea celebrando actos en espacios privados, o contratando y cediendo datos de menores a empresas como Google. El modelo es el estadounidense.",
+      "zh": "我们还看到班级被关闭、人员被裁减而班级规模依然居高不下，以及公私之间的协同效应——无论是在私立空间举办公共活动，还是将未成年人数据转让给谷歌等企业。这一模式正是美国模式。",
+      "words": {
         "ratios": {
           "def": "（师生）比例；班级规模（名词复数，借自英语）",
           "usage": "此处指班级学生人数与教师数量之比，比率高意味着教育资源紧张"
@@ -179,8 +237,18 @@
       }
     },
     {
-      "es": "Es el marco que, por otra parte, compran cada vez más familias, no solo de clases favorecidas. Con el argumento del \"dinero llama a dinero\", de relacionarse con una élite que asegure una red de contactos o de la innovación tecnológica, aumentan los padres que están cambiando a sus hijos incluso de colegios concertados a privados, que empiezan a ahorrar muy pronto para poder pagar una universidad o un ciclo formativo, que piden créditos. No sé si reparan en que la lógica de esta profusión de entidades académicas es puramente mercantil, en que si hasta ahora el 63% de la educación concertada sacaba el beneficio ideológico de su adoctrinamiento religioso, el fin ha pasado a ser un descarnado ánimo de lucro. ¿Qué valores puede transmitir quien se rige por un razonamiento principalmente competitivo? ¿Qué humanidad puede trasladar la EdTech?",
-      "zh": "这一框架正被越来越多的家庭所接受，而不仅仅是优势阶层。以\u201c钱生钱\u201d为由，以结交能保证人脉网络的精英阶层或技术创新为由，越来越多的家长将孩子从协议学校转入私立学校，很早就开始储蓄以支付大学或职业培训费用，甚至申请贷款。我不知道他们是否意识到，这种私立学术机构大量涌现背后的逻辑纯粹是商业性的——如果说迄今为止63%的协议教育从宗教灌输中获取意识形态利益，那么如今的目的已变成赤裸裸的逐利。一个以竞争性思维为主导准则的机构，能传递什么价值观？教育科技又能传递什么人文关怀？",
+      "es": "Si usted quiere una educación o sanidad de calidad, pague, aunque quien garantice plenamente esa calidad, en este país, sigan siendo la universidad y la sanidad públicas.",
+      "zh": "如果您想要优质教育或医疗，请自费——尽管在这个国家，真正能全面保障这种质量的，依然是公立大学和公共医疗。",
+      "words": {
+        "sanidad": {
+          "def": "医疗卫生体系；公共卫生（名词）",
+          "usage": "'sanidad pública' 意为「公共医疗体系」，与教育并列为西班牙福利国家两大支柱"
+        }
+      }
+    },
+    {
+      "es": "Es el marco que, por otra parte, compran cada vez más familias, no solo de clases favorecidas. Con el argumento del \"dinero llama a dinero\", de relacionarse con una élite que asegure una red de contactos o de la innovación tecnológica, aumentan los padres que están cambiando a sus hijos incluso de colegios concertados a privados.",
+      "zh": "这一框架正被越来越多的家庭所接受，而不仅仅是优势阶层。以「钱生钱」为由，以结交能保证人脉网络的精英阶层或技术创新为由，越来越多的家长将孩子从协议学校转入私立学校。",
       "words": {
         "clases favorecidas": {
           "def": "优势阶层；特权阶级（名词短语）",
@@ -189,7 +257,13 @@
         "red de contactos": {
           "def": "人脉网络；关系网（名词短语）",
           "usage": "指通过就读精英学校建立的社会关系资本，是私立教育的重要卖点之一"
-        },
+        }
+      }
+    },
+    {
+      "es": "Hay padres que empiezan a ahorrar muy pronto para poder pagar una universidad o un ciclo formativo, que piden créditos. No sé si reparan en que la lógica de esta profusión de entidades académicas es puramente mercantil.",
+      "zh": "有些家长很早就开始储蓄以支付大学或职业培训费用，甚至申请贷款。我不知道他们是否意识到，这种私立学术机构大量涌现背后的逻辑纯粹是商业性的。",
+      "words": {
         "reparan en": {
           "def": "注意到；意识到；察觉（动词短语）",
           "usage": "'no sé si reparan en que...' 意为「我不知道他们是否意识到……」，带有质疑语气"
@@ -201,7 +275,13 @@
         "mercantil": {
           "def": "商业的；逐利的；贸易的（形容词）",
           "usage": "'lógica puramente mercantil' 意为「纯粹的商业逻辑」，批判教育商品化"
-        },
+        }
+      }
+    },
+    {
+      "es": "Si hasta ahora el 63% de la educación concertada sacaba el beneficio ideológico de su adoctrinamiento religioso, el fin ha pasado a ser un descarnado ánimo de lucro. ¿Qué valores puede transmitir quien se rige por un razonamiento principalmente competitivo? ¿Qué humanidad puede trasladar la EdTech?",
+      "zh": "如果说迄今为止63%的协议教育从宗教灌输中获取意识形态利益，那么如今的目的已变成赤裸裸的逐利。一个以竞争性思维为主导准则的机构，能传递什么价值观？教育科技又能传递什么人文关怀？",
+      "words": {
         "adoctrinamiento religioso": {
           "def": "宗教灌输；宗教教化（名词短语）",
           "usage": "指协议学校（多为天主教机构）通过教育传播宗教意识形态的做法"
@@ -218,10 +298,6 @@
           "def": "以……为准则；受……支配（动词短语）",
           "usage": "'quien se rige por un razonamiento competitivo' 意为「以竞争性思维为行事准则的机构」"
         },
-        "razonamiento": {
-          "def": "推理；思维方式；论证（名词）",
-          "usage": "'razonamiento competitivo' 意为「竞争性思维逻辑」"
-        },
         "EdTech": {
           "def": "教育科技（名词，英语缩写）",
           "usage": "Education Technology 的缩写，指将科技手段应用于教育的商业模式，作者对其人文价值持怀疑态度"
@@ -229,8 +305,8 @@
       }
     },
     {
-      "es": "La educación es una oportunidad para la vida, no un producto. Es un derecho universal conquistado por un Estado del Bienestar que se fue consolidando en España desde los años ochenta y que ahora parece una ilusión a punto de desvanecerse, un espejismo, un edificio que era sólido y se está resquebrajando. Ante la confusión interesada de llamar excelencia a lo que más bien es un privilegio de cuna, el fomento del negocio privado y el desprestigio de una enseñanza pública destinada cada vez más a ser un gueto de exclusión, emociona encontrarse de nuevo con las palabras del nieto de Francisco Tomás y Valiente cuando recibió en 2018 el Premio Extraordinario en Bachillerato de Madrid: \"No solo son excelentes aquellos que obtienen óptimos resultados, sino, muy especialmente, quienes consiguen progresar desde circunstancias menos ventajosas, en ocasiones con problemas familiares, aprietos económicos o dificultades de aprendizaje\".",
-      "zh": "教育是人生的机会，而非商品。它是由福利国家争取来的普世权利——这一权利自八十年代起在西班牙逐步巩固，而如今却似乎成了即将消散的幻觉，一个海市蜃楼，一座曾经坚固却正在龟裂的大厦。面对将特权刻意混淆为卓越的居心叵测、私营教育生意的大肆推广，以及公共教育日益沦为排斥性贫民窟的污名化，重读弗朗西斯科·托马斯·瓦连特之孙2018年获得马德里高中特别奖时的发言，令人动容：\u201c卓越不仅属于那些取得优异成绩的人，更特别属于那些从不利处境出发、有时克服家庭问题、经济困难或学习障碍而不断进步的人。\u201d",
+      "es": "La educación es una oportunidad para la vida, no un producto. Es un derecho universal conquistado por un Estado del Bienestar que se fue consolidando en España desde los años ochenta y que ahora parece una ilusión a punto de desvanecerse, un espejismo, un edificio que era sólido y se está resquebrajando.",
+      "zh": "教育是人生的机会，而非商品。它是由福利国家争取来的普世权利——这一权利自八十年代起在西班牙逐步巩固，而如今却似乎成了即将消散的幻觉，一个海市蜃楼，一座曾经坚固却正在龟裂的大厦。",
       "words": {
         "Estado del Bienestar": {
           "def": "福利国家（名词短语）",
@@ -251,7 +327,13 @@
         "resquebrajando": {
           "def": "龟裂；碎裂；瓦解（现在分词）",
           "usage": "'se está resquebrajando' 意为「正在龟裂/瓦解」，以建筑物裂缝比喻制度崩塌"
-        },
+        }
+      }
+    },
+    {
+      "es": "Ante la confusión interesada de llamar excelencia a lo que más bien es un privilegio de cuna, el fomento del negocio privado y el desprestigio de una enseñanza pública destinada cada vez más a ser un gueto de exclusión, emociona encontrarse de nuevo con las palabras del nieto de Francisco Tomás y Valiente.",
+      "zh": "面对将特权刻意混淆为卓越的居心叵测、私营教育生意的大肆推广，以及公共教育日益沦为排斥性贫民窟的污名化，重读弗朗西斯科·托马斯·瓦连特之孙的发言，令人动容。",
+      "words": {
         "confusión interesada": {
           "def": "居心叵测的混淆；蓄意制造的混乱（名词短语）",
           "usage": "指有意将「特权」包装成「卓越」的话语操弄，'interesada' 暗示背后有私利"
@@ -271,7 +353,13 @@
         "gueto de exclusión": {
           "def": "排斥性贫民窟；隔离区（名词短语）",
           "usage": "比喻公立学校正沦为只剩弱势群体就读的隔离空间，语气强烈"
-        },
+        }
+      }
+    },
+    {
+      "es": "Cuando recibió en 2018 el Premio Extraordinario en Bachillerato de Madrid, dijo: \"No solo son excelentes aquellos que obtienen óptimos resultados, sino, muy especialmente, quienes consiguen progresar desde circunstancias menos ventajosas, en ocasiones con problemas familiares, aprietos económicos o dificultades de aprendizaje\".",
+      "zh": "他在2018年获得马德里高中特别奖时说道：「卓越不仅属于那些取得优异成绩的人，更特别属于那些从不利处境出发、有时克服家庭问题、经济困难或学习障碍而不断进步的人。」",
+      "words": {
         "aprietos económicos": {
           "def": "经济困难；财务窘境（名词短语）",
           "usage": "'aprieto' 意为「困境/窘境」，'aprietos económicos' 指具体的经济拮据状况"

@@ -56,7 +56,7 @@
     .article-box {
       background: #fff;
       border-radius: 12px;
-      padding: 36px 40px;
+      padding: 20px 18px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     }
     .article-title { font-size: 1.5rem; font-weight: bold; color: #1a1a2e; margin-bottom: 6px; }
@@ -97,12 +97,12 @@
       display: none;
       margin-top: 10px;
       padding: 12px 16px;
-      background: #f0f7ff;
+      background: #f2f2f2;
       border-radius: 8px;
       font-size: 0.93rem;
-      color: #2c5f8a;
+      color: #444;
       line-height: 1.7;
-      border-left: 3px solid #3498db;
+      border-left: 3px solid #bbb;
     }
     .zh-translation.visible { display: block; }
     .zh-label {
@@ -111,7 +111,6 @@
       letter-spacing: 1px; margin-bottom: 4px;
     }
 
-    /* ── 弹窗：桌面跟随鼠标，手机固定底部 ── */
     #word-popup {
       position: fixed;
       z-index: 99999;
@@ -135,7 +134,6 @@
       transform: none;
     }
 
-    /* 手机端：固定在底部，宽度撑满 */
     @media (max-width: 600px) {
       #word-popup {
         width: calc(100vw - 32px);
@@ -159,7 +157,7 @@
     .popup-divider  { border: none; border-top: 1px solid #2e2e4a; margin: 10px 0; }
     .popup-section-title { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
     .popup-definition { font-size: 0.93rem; color: #e8e8e8; line-height: 1.6; margin-bottom: 10px; }
-    .popup-usage      { font-size: 0.87rem; color: #a8d8ea; line-height: 1.6; font-style: italic; }
+    .popup-usage      { font-size: 0.87rem; color: #a8d8ea; line-height: 1.6; font-style: normal; }
     .popup-close {
       position: absolute; top: 10px; right: 12px;
       background: none; border: none; color: #666;
@@ -264,6 +262,32 @@ function openArticle(data) {
   document.getElementById("reader-view").style.display  = "block";
   document.getElementById("reader-title").textContent   = data.title;
   document.getElementById("reader-meta").textContent    = `${data.source} · ${data.date}`;
+
+  // 清空正文区域
+  const body = document.getElementById("reader-body");
+  body.innerHTML = "";
+
+  // 渲染引言块
+  if (data.intro) {
+    const introDiv = document.createElement("div");
+    introDiv.style.cssText = `
+      background: #fff8ec;
+      border-left: 4px solid #f39c12;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 28px;
+      font-size: 0.93rem;
+      line-height: 1.8;
+      color: #555;
+    `;
+    introDiv.innerHTML = `
+      <div style="font-size:0.7rem;color:#f39c12;letter-spacing:1px;margin-bottom:6px;">📌 引言 INTRODUCCIÓN</div>
+      <div style="margin-bottom:8px;">${data.intro.es}</div>
+      <div style="color:#888;font-size:0.88rem;">${data.intro.zh}</div>
+    `;
+    body.appendChild(introDiv);
+  }
+
   renderArticle(data);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -279,7 +303,6 @@ document.getElementById("back-btn").addEventListener("click", () => {
 // ── 渲染段落 ──
 function renderArticle(data) {
   const body = document.getElementById("reader-body");
-  body.innerHTML = "";
 
   data.paragraphs.forEach((para) => {
     const block = document.createElement("div");
@@ -333,14 +356,12 @@ function showPopup(e, word, data) {
 
   const popup = document.getElementById("word-popup");
 
-  // 手机端（宽度≤600px）：固定底部，不用计算坐标
   if (window.innerWidth <= 600) {
     popup.style.left   = "16px";
     popup.style.right  = "16px";
     popup.style.bottom = "16px";
     popup.style.top    = "auto";
   } else {
-    // 桌面端：跟随鼠标，防止超出边界
     popup.style.bottom = "auto";
     popup.style.right  = "auto";
     requestAnimationFrame(() => {
